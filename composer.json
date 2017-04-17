@@ -1,0 +1,21 @@
+{
+    "name": "Tpojka/Manevar",
+    "description": "Manevar, it's manouver on English.",
+    "license": "MIT",
+    "keywords": ["manevar"],
+    "authors": [
+        {
+            "name": "Goran Grbic",
+            "email": "tpojka@gmail.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tpojka\\Manevar\\": "src"
+        }
+    }
+}
