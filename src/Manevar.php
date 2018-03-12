@@ -1,18 +1,21 @@
 <?php
 
+namespace Tpojka\Manevar;
+
 /**
  * Manevar class
  */
 
-namespace Tpojka\Manevar;
-
-/**
- * @return boolean Shows if loopBack manevar is true
- */
- 
 class Manevar
 {
-    public function loopBack($bool = true)
+/**
+ * Shows if loopBack manevar is true
+ *
+ * @param bool $bool
+ * @return boolean
+ */
+ 
+public function loopBack(bool $bool = true) : bool
     {
         return $bool;
     }
